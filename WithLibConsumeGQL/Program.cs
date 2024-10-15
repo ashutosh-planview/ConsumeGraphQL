@@ -23,7 +23,7 @@ namespace WithLibConsumeGQL
         "";
 
       var httpClient = new HttpClient();
-      httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", tokenBearer);gfh  jghjfghjhggwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww
+      httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", tokenBearer);
 
       var graphQLClient = new GraphQLHttpClient(endpointGQLUrl, new NewtonsoftJsonSerializer(), httpClient);
 
