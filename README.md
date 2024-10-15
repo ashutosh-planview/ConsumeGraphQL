@@ -11,7 +11,7 @@ Ensure the existing setup of Action-boards (Portfolios Overview and widgets) is 
 This makes the above-mentioned GQL queries with Authorization token available in the local system with the background DB and infrastructure without any need for additional setup.
 
 It contains 3 projects
-1. ResponseDto: A class library project that contains the response classes for the GraphQL queries.
+1. ResponseDto: A class library project that contains the response /DTOs used for <code>Deserialization</code> for responses from the GraphQL queries.
 2. WithLibConsumeGQL: A console application that consumes the GraphQL Queries using GraphQL.Client library/package and other related libraries/packages.
 3. WithoutLibConsumeGQL: A console application that consumes the GraphQL Queries without using any libraries/packages meant specially for GraphQL.
 
