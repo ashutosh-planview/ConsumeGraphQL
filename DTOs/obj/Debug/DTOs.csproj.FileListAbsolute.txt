@@ -1,0 +1,6 @@
+C:\CodeRepositories\GraphQL\ConsoleGQL\DTOs\bin\Debug\DTOs.dll
+C:\CodeRepositories\GraphQL\ConsoleGQL\DTOs\bin\Debug\DTOs.pdb
+C:\CodeRepositories\GraphQL\ConsoleGQL\DTOs\obj\Debug\DTOs.csproj.AssemblyReference.cache
+C:\CodeRepositories\GraphQL\ConsoleGQL\DTOs\obj\Debug\DTOs.csproj.CoreCompileInputs.cache
+C:\CodeRepositories\GraphQL\ConsoleGQL\DTOs\obj\Debug\DTOs.dll
+C:\CodeRepositories\GraphQL\ConsoleGQL\DTOs\obj\Debug\DTOs.pdb
