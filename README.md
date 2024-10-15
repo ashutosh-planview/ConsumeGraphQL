@@ -2,12 +2,12 @@
 ## The purpose of this solution was to explore, investigate and identify the various ways to consume the GraphQL queries/endpoints.
 
 ### Introduction
-The requirement was for Portfolios (PVEWeb) C# .Net framework application/code base/repository to be able to consume GraphQL queries/endpoints (exposed by PVAdmin).
-<p>For this purpose an existing PVAdmin's <code>GetCurrentUser</code> GQL query/endpoint was used as it was already available in the local system.</p>
-For authorization the JWT token was used, that the local system was using and manually provided in the code by extracting it from running application's requests.
+The requirement was for Portfolios (PVEWeb) C# .Net framework application/codebase/repository to be able to consume GraphQL queries/endpoints (exposed by PVAdmin).
+<p>For this purpose, an existing PVAdmin's <code>GetCurrentUser</code> GQL query/endpoint was used as it was already available in the local system.</p>
+For authorization, the JWT token was used, which the local system was using and manually provided in the code by extracting it from running application's requests.
 
 ### Prerequisites
-Ensure existing setup of action-boards (Portfolios Overview and widgets) is up and running.
+Ensure the existing setup of Action-boards (Portfolios Overview and widgets) is up and running.
 This makes the above-mentioned GQL queries with Authorization token available in the local system with the background DB and infrastructure without any need for additional setup.
 
 It contains 3 projects
